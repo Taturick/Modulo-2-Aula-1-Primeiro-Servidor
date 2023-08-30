@@ -1,7 +1,8 @@
 const lodash = require('lodash');
 
-const array = [1,2,3,4,4,6,7,1];
+const array = [1,2,3,4,4,6,7,1]
 
 const arrayUnico = lodash.uniq(array);
 
 console.log(arrayUnico)
+
